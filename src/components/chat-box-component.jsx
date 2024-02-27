@@ -40,7 +40,7 @@ const ChatBoxComponent = ({setShowChatBox}) => {
         setImage(url);
     }
   return (
-    <div className='absolute w-[40%] right-10 -top-80 z-30'>
+    <div className='absolute w-[80%] right-10 -top-80 z-30 md:w-[40%] sm:w-[70%]'>
         <div className='px-6 pt-3 pb-6 bg-[#FF9606] flex justify-between'>
             <div className='flex relative'>
                 <div className='absolute -top-7 -left-2 px-4 py-4 rounded-[100%] border-2 border-[#FF9606] bg-white'>
