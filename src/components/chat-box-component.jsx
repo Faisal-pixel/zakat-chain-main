@@ -90,7 +90,7 @@ const ChatBoxComponent = ({setShowChatBox}) => {
                 {image && <img src={image} alt="preview" className='h-10 w-10 object-cover'/>}
             <div className=''>
                 <form>
-                    <textarea type='text' cols={30} rows={1} onChange={handleChatBoxTextAreaChange} value={chatBoxTextArea.message} className='resize-none focus:outline-none' placeholder='Type your message here...'>
+                    <textarea type='text' rows={1} onChange={handleChatBoxTextAreaChange} value={chatBoxTextArea.message} className='resize-none focus:outline-none' placeholder='Type your message here...'>
                     </textarea>
                 </form>
             </div>
